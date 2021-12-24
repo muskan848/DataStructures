@@ -3,6 +3,8 @@
 // time o(m^n)
 // space o(n)
 
+//graph coloring with m colors
+
 class solve 
 {
     //Function to determine if graph can be coloured with at most M colours such
