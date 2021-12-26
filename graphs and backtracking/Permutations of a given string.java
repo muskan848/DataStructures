@@ -19,6 +19,7 @@ class Solution
         if(op.length()==length)
         {
             arr.add(op);
+            return;
         }
         
         for(int i=0;i<s.length();i++)
