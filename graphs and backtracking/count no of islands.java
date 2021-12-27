@@ -1,4 +1,5 @@
 //https://leetcode.com/problems/number-of-islands/
+//https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1#
 //application of get connected components
 //proactive and reactive calls
 
@@ -41,5 +42,10 @@ class Solution {
         dfs(grid,i-1,j,visit);
         dfs(grid,i+1,j,visit);
         dfs(grid,i,j+1,visit);
+        dfs(grid,i-1,j-1,visit);
+        dfs(grid,i+1,j+1,visit);
+         dfs(grid,i+1,j-1,visit);
+         dfs(grid,i-1,j+1,visit);
+
     }
 }
